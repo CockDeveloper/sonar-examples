@@ -8,6 +8,6 @@ public class One {
   }
 
   public void uncoveredMethod() {
-    logger.log(foo());
+    log.info(foo());
   }
 }
